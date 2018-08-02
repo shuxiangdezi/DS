@@ -31,9 +31,9 @@ bool del_st(sqlist &L,int s,int t)
     {
         int i,j,k;
         for( i=0;i<L.length&&L.data[i]<=s;i++);
-        printf("%d",i);
+       // printf("%d",i);
         for( j=i;j<L.length&&L.data[j]<t;j++);
-        printf("%d",j);
+       // printf("%d",j);
         k=j-i;
         while(j<L.length)
             {
